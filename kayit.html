@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="container">
         <h2 style="text-align: center;">Kayıt Ol</h2>
-        <form action="kayit.php" method="post">
+        <form action="kayit.html" method="post">
             <div class="input-group">
                 <label for="name">Adınız:</label>
                 <input type="text" id="name" name="name" required>
@@ -139,11 +139,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         function kayit() {
-            window.location.href = "kisiselblog.php";
+            window.location.href = "kisiselblog.html";
         }
 
         function giris() {
-            window.location.href = "giris.php";
+            window.location.href = "giris.html";
         }
     </script>
 </body>
